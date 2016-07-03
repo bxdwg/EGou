@@ -11,7 +11,7 @@
     android:layout_width="65dp"
     android:layout_height="65dp" />
     <TextView
-        android:id="@+id/sort_desc"
+        android:id="@+id/sortDesc"
         android:layout_centerHorizontal="true"
         android:text="sort"
         android:layout_marginTop="3dp"

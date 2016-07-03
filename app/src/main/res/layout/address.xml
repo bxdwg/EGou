@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.dwg.egou.SlideFinishLayout
+<com.dwg.egou.widget.SlideFinishLayout
     android:id="@+id/root_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -101,4 +101,4 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
-</com.dwg.egou.SlideFinishLayout>
+</com.dwg.egou.widget.SlideFinishLayout>

@@ -24,7 +24,7 @@
             android:text="易购"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/content_size"
+            android:textSize="@dimen/title_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <ImageView
@@ -32,8 +32,8 @@
             android:clickable="true"
             android:layout_alignParentRight="true"
             android:src="@drawable/search"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
     </RelativeLayout>
 <com.handmark.pulltorefresh.library.PullToRefreshScrollView
 android:id="@+id/scollPullToRefresh"
@@ -97,7 +97,7 @@ android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_height="200dp">
     </GridView>
-    <com.dwg.egou.MyGridView
+    <com.dwg.egou.widget.MyGridView
         android:verticalSpacing="@dimen/litter_space"
         android:horizontalSpacing="@dimen/litter_space"
         android:id="@+id/product_list"
@@ -105,7 +105,7 @@ android:layout_height="wrap_content"
         android:layout_height="wrap_content"
         android:numColumns="2"
        >
-   </com.dwg.egou.MyGridView>
+   </com.dwg.egou.widget.MyGridView>
 </LinearLayout>
 </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
 

@@ -17,7 +17,7 @@
     <application
         android:name=".MyApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -36,42 +36,34 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-
-            >
+        <activity android:name=".Acitivty.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GuideActivity" />
-        <activity android:name=".indexActivity"
+        <activity android:name=".Acitivty.GuideActivity" />
+        <activity
+            android:name=".Acitivty.indexActivity"
             android:launchMode="singleTask"
-            android:theme="@style/notTranslucent"/>
-        <activity android:name=".cityActivity"
-            />
-        <activity android:name=".LoginActivity"
-            />
-        <activity android:name=".ProductDetails"
-            />
-        <activity android:name=".Address"
-            />
-        <activity android:name=".OrderList"
-            />
-        <activity android:name=".AccountManager"
-            />
-        <activity android:name=".ModifyUserInfo"
-            />
-        <activity android:name=".CartGoryList"
-           ></activity>
-        <activity android:name=".CateGory"
-           ></activity>
-        <activity android:name=".SearchActivity"
-            ></activity>
-        <activity android:name=".ModifyPassword"
-            ></activity>
-        <activity android:name=".RegisterUser"
-            ></activity>
+            android:theme="@style/notTranslucent" />
+        <activity android:name=".Acitivty.LoginActivity" />
+        <activity android:name=".Acitivty.ProductDetails" />
+        <activity android:name=".Acitivty.GenerateOrder" />
+        <activity android:name=".Acitivty.OrderList" />
+        <activity android:name=".Acitivty.AccountManager" />
+        <activity android:name=".Acitivty.ModifyUserInfo" />
+        <activity android:name=".Acitivty.CartGoryList" />
+        <activity android:name=".Acitivty.CateGory" />
+        <activity android:name=".Acitivty.SearchActivity" />
+        <activity android:name=".Acitivty.ModifyPassword" />
+        <activity android:name=".Acitivty.RegisterUser" />
+
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
+
 </manifest>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EGou</string>
+    <string name="app_name">易购</string>
     <string name="cityForBack"><![CDATA[< 返回]]></string>
     <string-array name="city_name_order_letter">
         <item>热门</item>

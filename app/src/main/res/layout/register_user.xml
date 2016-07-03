@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.dwg.egou.SlideFinishLayout
+<com.dwg.egou.widget.SlideFinishLayout
     android:id="@+id/root_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -69,7 +69,7 @@
             android:drawableLeft="@drawable/login_password"
             android:layout_width="match_parent"
             android:singleLine="true"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/registerPasswordConfirm"
@@ -78,7 +78,7 @@
             android:drawableLeft="@drawable/password_confirm"
             android:layout_width="match_parent"
             android:singleLine="true"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:layout_height="wrap_content" />
         <Button
             android:textColor="@color/white"
@@ -89,4 +89,4 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-</com.dwg.egou.SlideFinishLayout>
+</com.dwg.egou.widget.SlideFinishLayout>

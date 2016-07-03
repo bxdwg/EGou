@@ -2,7 +2,9 @@ package com.dwg.egou;
 
 import android.app.Activity;
 import android.app.Application;
-import android.content.Context;
+
+import com.dwg.egou.entity.User;
+import com.dwg.egou.widget.SlideFinishLayout;
 
 /**
  * Created by Administrator on 2016/4/28.

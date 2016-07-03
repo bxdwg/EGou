@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.dwg.egou.SlideFinishLayout
+<com.dwg.egou.widget.SlideFinishLayout
 
     android:id="@+id/root_layout"
     android:layout_height="match_parent"
@@ -25,7 +25,7 @@
             android:hint="可搜索商品名称"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
         <Button
             android:id="@+id/cancel"
 
@@ -44,4 +44,4 @@
         android:layout_height="match_parent">
     </ListView>
 </LinearLayout>
-    </com.dwg.egou.SlideFinishLayout>
+    </com.dwg.egou.widget.SlideFinishLayout>
