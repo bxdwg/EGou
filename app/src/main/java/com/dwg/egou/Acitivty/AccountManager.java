@@ -81,7 +81,7 @@ public class AccountManager extends Activity implements View.OnClickListener {
         break;
     }
   }
-   
+
   private void destroyAllInfo() {
     System.out.println("注销登录");
     //删除所有在sharedPreference中的东西
