@@ -251,7 +251,6 @@ public class indexActivity extends FragmentActivity implements View.OnClickListe
                 if(response.getState()==1){//表示登录成功
                     getUser  = (User) response.getDatas();
                     MyApp.user = getUser;
-
                 }
 
 
