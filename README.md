@@ -20,3 +20,5 @@
 [picasso](https://github.com/square/picasso)
 
 [pullToRefresh](https://github.com/MarkMjw/PullToRefresh)
+
+fork的项目修复了一些代码
