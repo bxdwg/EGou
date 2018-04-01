@@ -1,4 +1,4 @@
-# EGou（购物App）
+﻿# EGou（购物App）
 简单的购物app
 # 基本说明
 可以进行基本的登录修改账号信息密码
@@ -21,4 +21,4 @@
 
 [pullToRefresh](https://github.com/MarkMjw/PullToRefresh)
 
-fork的项目修复了一些代码
+fork的项目修复了一些代码-owner
