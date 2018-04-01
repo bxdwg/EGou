@@ -21,4 +21,4 @@
 
 [pullToRefresh](https://github.com/MarkMjw/PullToRefresh)
 
-fork的项目修复了一些代码-owner
+fork的项目修复了一些代码-fork
